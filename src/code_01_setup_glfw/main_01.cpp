@@ -2,6 +2,7 @@
 #include <GLFW/glfw3.h>
 #include <iostream>
  
+
 void printout_opengl_glsl_info() {
     const GLubyte* renderer		= glGetString(GL_RENDERER);
     const GLubyte* vendor		= glGetString(GL_VENDOR);
